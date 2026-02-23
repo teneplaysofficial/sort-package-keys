@@ -1,0 +1,55 @@
+{
+  "name": "sort-package-keys",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "package-json",
+    "sort",
+    "keys",
+    "package",
+    "json",
+    "formatter",
+    "prettier",
+    "package-sort"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teneplaysofficial/sort-package-keys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teneplaysofficial/sort-package-keys/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/teneplaysofficial"
+  },
+  "license": "Apache-2.0",
+  "author": "Sriman",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "packageManager": "pnpm@10.29.3",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check .",
+    "prepare": "husky",
+    "release": "bash release.sh",
+    "test": "node --test --experimental-test-coverage"
+  },
+  "devDependencies": {
+    "@tenedev/prettier-config": "^1.0.0",
+    "@types/node": "^25.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.8.1",
+    "prettier-plugin-packagejson": "^3.0.0",
+    "release-hub": "1.0.0-beta.1"
+  },
+  "prettier": "@tenedev/prettier-config",
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
+  }
+}
