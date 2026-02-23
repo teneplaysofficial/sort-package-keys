@@ -25,11 +25,11 @@
   },
   "license": "Apache-2.0",
   "author": "Sriman",
+  "packageManager": "pnpm@10.30.1",
   "files": [
     "index.js",
     "index.d.ts"
   ],
-  "packageManager": "pnpm@10.30.1",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
