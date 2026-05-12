@@ -25,7 +25,7 @@
   },
   "license": "Apache-2.0",
   "author": "Sriman",
-  "packageManager": "pnpm@11.0.8",
+  "packageManager": "pnpm@11.0.9",
   "files": [
     "index.js",
     "index.d.ts"
